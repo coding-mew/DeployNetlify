@@ -4,12 +4,14 @@ import { NavLink } from 'react-router-dom'
 
 function About() {
   return (
-    <div>
-      <h1>This is About </h1>
-     
-        {/* <NavLink to="/">go home</NavLink> */}
-        </div>
-
+    <div style={{display: "flex", justifyContent: "center"}}>
+    <h1 data-text="This is About">
+   
+    <span>This is About</span>
+  
+    </h1>
+    {/* <NavLink to="/about_me">back to about</NavLink> */}
+    </div>
   )
 }
 
